@@ -108,5 +108,7 @@ smartctl --version
 
 Credits
 
-    gsmartcontrol: https://github.com/AdvancesInTech/gsmartcontrol
-    smartmontools: https://github.com/smartmontools/smartmontools
+Alexander Shaduri 
+https://github.com/ashaduri/gsmartcontrol
+
+smartmontools: https://github.com/smartmontools/smartmontools
