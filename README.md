@@ -63,35 +63,46 @@ sudo make install
 ```
 
 8. To verify the installation:
-```gsmartcontrol --version```
+```
+gsmartcontrol --version
+```
 
 9. Cleanup
 If you want to remove the compiled files but keep the source code:
-```make clean```
+```
+make clean
+```
 To remove everything and start fresh:
-```git clean -xdf```
+```
+git clean -xdf
+```
 
 
-10. Build smartmontools from source
-If you're encountering `Incompatible smartctl version` error your system may not be compatible with the version expected by gsmartcontrol.
+## Incompatible smartctl version
+If you're encountering  this error your system may not be compatible with the version expected by gsmartcontrol 2.0.1.
 
-To resolve this issue, Run the following command to verify the version of smartctl:
-```smartctl --version```
+Run the following command to verify the version of smartctl:
+```
+smartctl --version
+```
 
-11. To install smartmontools 7.4. Download and extract the source code.
+10. To install smartmontools 7.4 from source. Download and extract the source code.
 ```
 wget https://sourceforge.net/projects/smartmontools/files/smartmontools/7.4/smartmontools-7.4.tar.gz
 tar -xvzf smartmontools-7.4.tar.gz
 cd smartmontools-7.4
 ```
 
-12. Build the source:
+11. Build the source:
 ```
 ./configure
 make
 sudo make install
 ```
-
+12. Once that's done, verify that the new version of smartctl is installed:
+```
+smartctl --version
+```
 
    
 
