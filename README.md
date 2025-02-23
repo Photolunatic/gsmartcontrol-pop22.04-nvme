@@ -3,7 +3,8 @@ A custom build of gsmartcontrol 2.0.1 with NVMe support, using smartmontools 7.4
 
 This repository contains a custom build of gsmartcontrol with smartmontools version 7.4 for Pop!_OS 22.04. The default version of smartmontools on Pop!_OS 22.04 is outdated (7.2 from 2020), and this build upgrades it to the latest release, enabling compatibility with newer hardware and features.
 
-
+GSmartcontrol GitHub Issue Discussion
+https://github.com/ashaduri/gsmartcontrol/issues/77
 
 ## Installation Steps
 
